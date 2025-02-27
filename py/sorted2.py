@@ -31,3 +31,8 @@ print(sorted(prodotti, key=lambda x: (x.get("prezzo"),x.get("nome"))))
 #     {'nome': 'Mela', 'prezzo': 1.5},
 #     {'nome': 'Kiwi', 'prezzo': 2.0}
 # ]
+
+#Dato un elenco di parole, ordina le parole in base alla loro frequenza di occorrenza nella lista (dal più frequente al meno frequente).
+parole = ["mela", "banana", "mela", "arancia", "banana", "banana"]
+print(sorted(parole, key=lambda x: parole.count(x), reverse=True))
+# Risultato atteso: ['banana', 'mela', 'arancia']
