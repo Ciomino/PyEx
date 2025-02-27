@@ -28,7 +28,7 @@ def salva_numeri_in_file(numeri, file_output):
             f.write(f"{numero}\n")
 
 if __name__ == "__main__":
-    cartella_immagini = r"C:\\Users\\mdinardo\\Desktop\\jv\\immagini_imei"
+    cartella_immagini = r"path"
     file_output = "numeri_estratti.txt"
 
     numeri_totali = []
